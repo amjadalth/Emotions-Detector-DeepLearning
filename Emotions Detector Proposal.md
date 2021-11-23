@@ -1,3 +1,5 @@
+# EMOTION-DETECTOR-USING-DEEP-LEARNING
+
 ## Introduction
 The tone of someone's voice is half of the message, us as humans we can tell if someone is happy or sad, but the computers don't. 
 So, in order to translate this important part of the message, deep-learning algorithms will become in handy.
