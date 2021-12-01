@@ -61,7 +61,7 @@ LSTM Model was also built with reulting accuracy of 0.4365
 <img src="https://github.com/amjadalth/Emotions-Detector-DeepLearning/blob/main/mfcc.png" width="600"/><br>
 <img src="https://github.com/amjadalth/Emotions-Detector-DeepLearning/blob/main/pitched-audio.png" width="500"/><br>
 
-All the above graphs show the roadmap of transformation of the raw audio to spectrogram to mel spectrogram to MFCC lastly to aa augmented audio by applying one of the
+All the above graphs show the roadmap of transformation of the raw audio to spectrogram to mel spectrogram to MFCC lastly to an augmented audio by applying one of the
 augmentation methods eg.pitch.
 
 #### Futrue Work
