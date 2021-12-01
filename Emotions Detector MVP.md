@@ -25,7 +25,9 @@ All of the data manipulation above resulted in **7200 rows** and **324 columns**
 Before starting with applying classification models and building neural networks, a few steps were taken beforehand:
 - The **y** was hot encoded.
 - Data was split into 80% for training and 20% for both validation and testing.
-- A new dimension was added to all X's (X_train, X_val and X_test).<br><br>Two classification models were built as a base line:
+- A new dimension was added to all X's (X_train, X_val and X_test).<br><br>
+
+Two classification models were built as a base line:
 1. Knearest Neighbor.
   - Training Score: 0.0296
   - Validation Score: 0.0256
@@ -40,12 +42,17 @@ Before starting with applying classification models and building neural networks
  2 Traditional baselines were built. First one is simple and it contains 4 neurons and the other one is a bit more complex it contains up to 9 neurons.
  - 1st TNN (Traditional Neural Network) accuracy = 0.1354
  - 2nd TNN (Traditional Neural Network) accuracy = 0.2389 <br>
- 2 CNN models were built. First one is simple (as a baseline) and it contains 2 neurons and the other one is a bit more complex it contains up to 8 neurons.
- - 1st TNN (Traditional Neural Network) accuracy = 0.1454
- - 2nd TNN (Traditional Neural Network) accuracy = 0.2515 <br>
- Another CNN model was built with more activation, dropout functions and more parameters.<br>
- - 3rd TNN (Traditional Neural Network) accuracy = 0.6298 <br>
- LSTM Model was also built with reulting accuracy of 0.4365
+ 
+2 CNN models were built. First one is simple (as a baseline) and it contains 2 neurons and the other one is a bit more complex it contains up to 8 neurons.
+
+ - 1st CNN (Convolutional Neural Network) accuracy = 0.1454
+ - 2nd CNN (Convolutional Neural Network) accuracy = 0.2515 <br>
+ 
+Another CNN model was built with more activation, dropout functions and more parameters.<br>
+ 
+ - 3rd CNN (T Neural Network) accuracy = 0.6298 <br>
+ 
+LSTM Model was also built with reulting accuracy of 0.4365
  
 <br><br>
 
