@@ -17,7 +17,7 @@ The data preprocessing process included:
 2. Converted spectrogram into Mel spectrogram.
 3. Converted Mel spectrogram into MFCC.
 4. Extracted features using MFCC (Mel Frequency Cepstral Coefficents)
-5. Performed augumentation methods on raw audio like, pitching, stretching, and adding noise on the recordings.<br>
+5. Performed augumentation methods on raw audio like, pitching, stretching, and adding noise on the recordings.<br><br>
 All of the data manipulation above resulted in **7200 rows** and **324 columns**.
 
 
@@ -25,7 +25,7 @@ All of the data manipulation above resulted in **7200 rows** and **324 columns**
 Before starting with applying classification models and building neural networks, a few steps were taken beforehand:
 - The **y** was hot encoded.
 - Data was split into 80% for training and 20% for both validation and testing.
-- A new dimension was added to all X's (X_train, X_val and X_test).
+- A new dimension was added to all X's (X_train, X_val and X_test).<br>
 Two classification models were built as a base line:
 1. Knearest Neighbor.
   - Training Score: 0.0296
