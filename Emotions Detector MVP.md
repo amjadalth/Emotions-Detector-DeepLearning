@@ -31,7 +31,7 @@ Before starting with applying classification models and building neural networks
   - Validation Score: 0.0256
   - Training + Validation Score: 0.0286
   - Testing Score: 0.0131
-2. Knearest Neighbor.
+2. Decision Tree.
   - Training Score: 1.0
   - Validation Score: 0.331
   - Training + Validation Score: 0.832
