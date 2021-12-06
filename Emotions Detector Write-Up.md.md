@@ -83,16 +83,16 @@ Data was then increased to 7200 recordings.
       
      - LSTM Models:
   
-      Model |   LSTM   | LSTM overfit solution # 1 (Reduced Model)  | LSTM overfit solution # 2 (regularized Model)| LSTM overfit solution # 3 (Dropout Model)|
-      -----------------|----------|-----------------------------------------------------------|--------------------|------------------------------------------|
-      Layers           | 4        |                3                                          | 4                                                                   |4
-      Activation       | relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride + **L2**|relu,softmax,padding,maxpooling,batchnorm,dropout(.6/.8/.9),kernel size,stride
-      Epoch            | 50       |50                                                         | 50                                                                  |50
-      Batch Size       | 30       |30                                                         | 30                                                                  |30
-      Number of Classes| 16       | 16                                                        | 16                                                                  |16
-      Metrics          | Categorical Accuracy | Categorical Accuracy                                                |Categorical Accuracy                        |Categorical Accuracy
-      Train | 0.73 | 1.0|0.99|0.53
-      Validation | 0.59 | 0.67|0.43
+        Model |   LSTM   | LSTM overfit solution # 1 (Reduced Model)  | LSTM overfit solution # 2 (regularized Model)| LSTM overfit solution # 3 (Dropout Model)|
+        -----------------|----------|-----------------------------------------------------------|--------------------|------------------------------------------|
+        Layers           | 4        |                3                                          | 4                                                                   |4
+        Activation       | relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride + **L2**|relu,softmax,padding,maxpooling,batchnorm,dropout(.6/.8/.9),kernel size,stride
+        Epoch            | 50       |50                                                         | 50                                                                  |50
+        Batch Size       | 30       |30                                                         | 30                                                                  |30
+        Number of Classes| 16       | 16                                                        | 16                                                                  |16
+        Metrics          | Categorical Accuracy | Categorical Accuracy                                                |Categorical Accuracy                        |Categorical Accuracy
+        Train | 0.73 | 1.0|0.99|0.53
+        Validation | 0.59 | 0.67|0.43
       
      - Feed-Forward Models:
         Model|VGG16 (Chosen Model)|
