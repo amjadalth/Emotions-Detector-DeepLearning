@@ -82,8 +82,7 @@ Data was then increased to 7200 recordings.
       Validation | 0.19 | 0.29|0.55
       
      - LSTM Models:
- 
-      Model            |   LSTM   | LSTM overfit solution # 1 (Reduced Model)                 | LSTM overfit solution # 2 (regularized Model)                       | LSTM overfit solution # 3 (Dropout Model)|
+ Model            |   LSTM   | LSTM overfit solution # 1 (Reduced Model)                 | LSTM overfit solution # 2 (regularized Model)                       | LSTM overfit solution # 3 (Dropout Model)|
       -----------------|----------|-----------------------------------------------------------|---------------------------------------------------------------------|------------------------------------------|
       Layers           | 4        |                3                                          | 4                                                                   |4
       Activation       | relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride |relu,softmax,padding,maxpooling,batchnorm,dropout,kernel size,stride + **L2**|relu,softmax,padding,maxpooling,batchnorm,dropout(.6/.8/.9),kernel size,stride
@@ -95,8 +94,7 @@ Data was then increased to 7200 recordings.
       Validation | 0.59 | 0.67|0.43
       
      - Feed-Forward Models:
-  
-      Model|VGG16 (Chosen Model)|
+  Model|VGG16 (Chosen Model)|
       ------|---------|
       Layers  | Freezed first 19 layers and added 3 extra
       Activation  | relu,softmax,dropout
